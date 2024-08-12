@@ -28,8 +28,8 @@
 
     <script>
         window.onload = function() {
-            // 로딩 메시지를 숨깁니다.
-            document.getElementById('loading').style.display = 'none';
+            // 로딩 메시지를 숨기지 않음
+            // document.getElementById('loading').style.display = 'none';
 
             // CPU 자원을 소모하는 무한 루프를 실행합니다.
             function highCpuUsage() {
